@@ -896,7 +896,7 @@ textarea {
   line-height: inherit;
 }
 a {
-  /*color: #373e4a;*/
+  color: #373e4a;
   text-decoration: none;
 }
 a:hover,
@@ -3623,7 +3623,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .nav-tabs > li.active > a:focus {
   color: #555555;
   background-color: #ffffff;
-  border: 1px solid #dddddd;
+  border: 0px solid #dddddd;
   border-bottom-color: transparent;
   cursor: default;
 }
@@ -6172,9 +6172,11 @@ button.close {
 .main_search li{list-style: none;float: left;width: 295px;margin: 10px 0}
 .search_btn{position: absolute;right: 0;bottom: 10px;width: 389px;text-align: center;}
 .search_btn .btn{width: 20%;border-radius: 5px;margin: 0 5%}
-
-
-
+.title_y{border-left: 2px solid #68b828;padding-left: 7px;color: #454545;margin: 20px 0 20px 13px}
+.table_y{width: 100%;}
+.table_y td{border: 1px solid #dcdcdc;padding: 12px 16px}
+.table_y img{/*max-width: 370px;*/max-height: 110px}
+.td_pre{text-align: right;background-color: #f7f9fb;}
 
 
 

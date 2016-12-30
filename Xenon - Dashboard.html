@@ -132,6 +132,8 @@
 						</h4>
 						
 						<ul class="list-unstyled">
+							
+
 							<li>
 								<div class="cbr-replaced cbr-checked cbr-primary"><div class="cbr-input"><input type="checkbox" class="cbr cbr-done" checked="checked" id="sp-chk1"></div><div class="cbr-state"><span></span></div></div>
 								<label for="sp-chk1">Messages</label>
@@ -241,6 +243,12 @@
 				
 						
 				<ul id="main-menu" class="main-menu">
+					<li>
+						<a href="html/main_index.html" target="FrameName">
+							<i class="icon iconfont icon-shouye1"></i>
+							<span class="title">主页</span>
+						</a>
+					</li>
 					<!-- add class "multiple-expanded" to allow multiple submenus to open -->
 					<!-- class "auto-inherit-active-class" will automatically add "active" class for parent elements who are marked already with class "active" -->
 					<li class="active opened active expanded has-sub">
@@ -555,7 +563,7 @@
 					</li>
 				</ul>
 						
-			<div class="ps-scrollbar-x-rail" style="display: block; width: 340px; left: 0px; bottom: 3px;"><div class="ps-scrollbar-x" style="left: 0px; width: 0px;"></div></div><div class="ps-scrollbar-y-rail" style="display: inherit; top: 0px; height: 610px; right: 2px;"><div class="ps-scrollbar-y" style="top: 0px; height: 467px;"></div></div></div>
+			<div class="ps-scrollbar-x-rail" style="display: block; width: 220px; left: 0px; bottom: 3px;"><div class="ps-scrollbar-x" style="left: 0px; width: 0px;"></div></div><div class="ps-scrollbar-y-rail" style="display: inherit; top: 0px; height: 610px; right: 2px;"><div class="ps-scrollbar-y" style="top: 0px; height: 467px;"></div></div></div>
 			
 		</div>
 		
@@ -874,7 +882,7 @@
 			
 			
 			<div class="row" style="height:100%;margin-top: -50px;padding-top: 30px">
-				<iframe src="html/main_index.html" frameborder="0" width="100%" height="95%" name="FrameName"></iframe>
+				<iframe src="html/main11_add1.html" frameborder="0" width="100%" height="95%" name="FrameName"></iframe>
 			</div>
 			
 			
@@ -1044,6 +1052,11 @@
 
 	<!-- JavaScripts initializations and stuff -->
 	<script src="js/xenon-custom.js"></script>
-
+<script type="text/javascript">
+	$(".main-menu a").click(function () {
+		$('.main-menu li').removeClass('active');
+		$(this).parents('li').addClass('active')
+	})
+</script>
 
 <textarea tabindex="-1" style="position: absolute; top: -999px; left: 0px; right: auto; bottom: auto; border: 0px; padding: 0px; box-sizing: content-box; word-wrap: break-word; overflow: hidden; transition: none; height: 0px !important; min-height: 0px !important; font-family: Arimo, &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; font-size: 13px; font-weight: 400; font-style: normal; letter-spacing: 0px; text-transform: none; word-spacing: 0px; text-indent: 0px; line-height: 18.5714px; width: 53px;" class="autosizejs" id="autosizejs"></textarea><!-- <div id="toast-container" class="toast-top-right toast-default" aria-live="polite" role="alert"><div class="black toast-info"><button class="toast-close-button" role="button">×</button><div class="toast-title">Account Subcription Updated</div><div class="toast-message">You have been awarded with 1 year free subscription. Enjoy it!</div></div></div> --></body></html>
