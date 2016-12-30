@@ -6177,7 +6177,9 @@ button.close {
 .table_y td{border: 1px solid #dcdcdc;padding: 12px 16px}
 .table_y img{/*max-width: 370px;*/max-height: 110px}
 .td_pre{text-align: right;background-color: #f7f9fb;}
-
+.xe-widget.xe-counter .xe-icon .index1{background: url(../img/index1.png) no-repeat #68b828 -1px -1px;}
+.xe-widget.xe-counter .xe-icon .index2{background: url(../img/index2.png) no-repeat #7c38bc -1px -2px;}
+.xe-widget.xe-counter .xe-icon .index3{background: url(../img/index3.png) no-repeat #40bbea 0 -3px;}
 
 
 
