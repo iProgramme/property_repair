@@ -28,44 +28,52 @@
 		<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
 	<![endif]-->
 	<style type="text/css">
-		
-		@font-face {font-family: "iconfont";
-		  src: url('css/iconfont.eot?t=1482377716292'); /* IE9*/
-		  src: url('css/iconfont.eot?t=1482377716292#iefix') format('embedded-opentype'), /* IE6-IE8 */
-		  url('css/iconfont.woff?t=1482377716292') format('woff'), /* chrome, firefox */
-		  url('css/iconfont.ttf?t=1482377716292') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+*/
-		  url('css/iconfont.svg?t=1482377716292#iconfont') format('svg'); /* iOS 4.1- */
-		}
+	
+	@font-face {font-family: "iconfont";
+	  src: url('css/iconfont.eot?t=1482393589087'); /* IE9*/
+	  src: url('css/iconfont.eot?t=1482393589087#iefix') format('embedded-opentype'), /* IE6-IE8 */
+	  url('css/iconfont.woff?t=1482393589087') format('woff'), /* chrome, firefox */
+	  url('css/iconfont.ttf?t=1482393589087') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+*/
+	  url('css/iconfont.svg?t=1482393589087#iconfont') format('svg'); /* iOS 4.1- */
+	}
 
-		.iconfont {
-		  font-family:"iconfont" !important;
-		  font-size:16px;
-		  font-style:normal;
-		  -webkit-font-smoothing: antialiased;
-		  -moz-osx-font-smoothing: grayscale;
-		}
+	.iconfont {
+	  font-family:"iconfont" !important;
+	  font-size:16px;
+	  font-style:normal;
+	  -webkit-font-smoothing: antialiased;
+	  -moz-osx-font-smoothing: grayscale;
+	}
 
-		.icon-wenjian:before { content: "\e61f"; }
+	.icon-wenjian:before { content: "\e61f"; }
 
-		.icon-shouye1:before { content: "\e663"; }
+	.icon-shouye1:before { content: "\e663"; }
 
-		.icon-jiankang:before { content: "\e629"; }
+	.icon-jiankang:before { content: "\e629"; }
 
-		.icon-shangchuanmoban:before { content: "\e622"; }
+	.icon-shangchuanmoban:before { content: "\e622"; }
 
-		.icon-fabulishi:before { content: "\e619"; }
+	.icon-fabulishi:before { content: "\e619"; }
 
-		.icon-guanggao20x20:before { content: "\e676"; }
+	.icon-guanggao20x20:before { content: "\e676"; }
 
-		.icon-zhucechenggong:before { content: "\e678"; }
+	.icon-zhucechenggong:before { content: "\e678"; }
 
-		.icon-fenxi:before { content: "\e67f"; }
+	.icon-suggest:before { content: "\e62d"; }
 
-		.icon-chuangye-copy:before { content: "\e601"; }
+	.icon-fenxi:before { content: "\e67f"; }
 
-		.icon-qiche1:before { content: "\e61b"; }
+	.icon-peizhi:before { content: "\e63e"; }
 
-		.icon-fabu1:before { content: "\e617"; }
+	.icon-chuangye-copy:before { content: "\e601"; }
+
+	.icon-qiche1:before { content: "\e61b"; }
+
+	.icon-icon-search:before { content: "\e64e"; }
+
+	.icon-fabu1:before { content: "\e617"; }
+
+	.icon-guanli1:before { content: "\e667"; }
 
 
 	</style>
@@ -499,7 +507,7 @@
 					</li>
 					<li class="has-sub">
 						<a href="http://demo.cssmoban.com/cssthemes3/mstp_115_enonadmin/dashboard-1.html#">
-							<i class="icon iconfont icon-shangchuanmoban"></i>
+							<i class="icon iconfont icon-suggest"></i>
 							<span class="title">意见反馈</span>
 						</a>
 						<ul>
@@ -513,7 +521,7 @@
 					</li>
 					<li class="has-sub">
 						<a href="http://demo.cssmoban.com/cssthemes3/mstp_115_enonadmin/dashboard-1.html#">
-							<i class="icon iconfont icon-shangchuanmoban"></i>
+							<i class="icon iconfont icon-guanli1"></i>
 							<span class="title">管理设置</span>
 						</a>
 						<ul>
@@ -527,7 +535,7 @@
 					</li>
 					<li class="has-sub">
 						<a href="http://demo.cssmoban.com/cssthemes3/mstp_115_enonadmin/dashboard-1.html#">
-							<i class="icon iconfont icon-shangchuanmoban"></i>
+							<i class="icon iconfont icon-peizhi"></i>
 							<span class="title">配置管理</span>
 						</a>
 						<ul>
@@ -811,22 +819,9 @@
 				
 				<!-- Right links for user info navbar -->
 				<ul class="user-info-menu right-links list-inline list-unstyled">
-					
-					<li class="search-form" style="min-height: 76px;"><!-- You can add "always-visible" to show make the search input visible -->
-						
-						<form method="get" action="http://demo.cssmoban.com/cssthemes3/mstp_115_enonadmin/extra-search.html">
-							<input type="text" name="s" class="form-control search-field" placeholder="Type to search...">
-							
-							<button type="submit" class="btn btn-link">
-								<i class="linecons-search"></i>
-							</button>
-						</form>
-						
-					</li>
-					
 					<li class="dropdown user-profile" style="min-height: 76px;">
 						<a href="http://demo.cssmoban.com/cssthemes3/mstp_115_enonadmin/dashboard-1.html#" data-toggle="dropdown">
-							<img src="./Xenon - Dashboard_files/user-4.png" alt="user-image" class="img-circle img-inline userpic-32" width="28">
+							<img src="./img/user-4.png" alt="user-image" class="img-circle img-inline userpic-32" width="28">
 							<span>
 								Arlind Nushi
 								<i class="fa-angle-down"></i>
@@ -866,20 +861,20 @@
 							</li>
 						</ul>
 					</li>
-					
+					<!-- 
 					<li style="min-height: 76px;">
 						<a href="http://demo.cssmoban.com/cssthemes3/mstp_115_enonadmin/dashboard-1.html#" data-toggle="chat">
 							<i class="fa-comments-o"></i>
 						</a>
 					</li>
-					
+					 -->
 				</ul>
 				
 			</nav>
 			
 			
 			<div class="row" style="height:100%;margin-top: -50px;padding-top: 30px">
-				<iframe src="html/main11.html" frameborder="0" width="100%" height="95%" name="FrameName"></iframe>
+				<iframe src="html/main_index.html" frameborder="0" width="100%" height="95%" name="FrameName"></iframe>
 			</div>
 			
 			
@@ -894,7 +889,7 @@
 		
 			
 		<!-- start: Chat Section -->
-		<div id="chat" class="fixed">
+		<!-- <div id="chat" class="fixed">
 			
 			<div class="chat-inner ps-container" style="max-height: 610px;">
 			
@@ -976,7 +971,7 @@
 			<div class="ps-scrollbar-x-rail" style="display: block; width: 279px; left: 0px; bottom: 3px;"><div class="ps-scrollbar-x" style="left: 0px; width: 0px;"></div></div><div class="ps-scrollbar-y-rail" style="display: block; top: 0px; height: 100px; right: 2px;"><div class="ps-scrollbar-y" style="top: 0px; height: 0px;"></div></div></div>
 			
 			<!-- conversation template -->
-			<div class="chat-conversation">
+			<!-- <div class="chat-conversation">
 				
 				<div class="conversation-header">
 					<a href="http://demo.cssmoban.com/cssthemes3/mstp_115_enonadmin/dashboard-1.html#" class="conversation-close">
@@ -1017,7 +1012,7 @@
 				
 			</div>
 			
-		</div>
+		</div> -->
 		<!-- end: Chat Section -->
 		
 		
