@@ -1207,7 +1207,7 @@ a.bg-danger:hover {
 ul,
 ol {
   margin-top: 0;
-  margin-bottom: 9px;
+  margin-bottom: 0px;
 }
 ul ul,
 ol ul,
