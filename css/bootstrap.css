@@ -6166,7 +6166,7 @@ button.close {
 }
 
 /*新增*/
-.main_search{position: relative;}
+.main_search{position: relative;min-height: 52px}
 .main_search ul{padding: 0;margin-right: 390px;}
 .main_search .text-right{width: 110px;display: inline-block;}
 .main_search li{list-style: none;float: left;width: 295px;margin: 10px 0}
@@ -6180,10 +6180,9 @@ button.close {
 .xe-widget.xe-counter .xe-icon .index1{background: url(../img/index1.png) no-repeat #68b828 -1px -1px;}
 .xe-widget.xe-counter .xe-icon .index2{background: url(../img/index2.png) no-repeat #7c38bc -1px -2px;}
 .xe-widget.xe-counter .xe-icon .index3{background: url(../img/index3.png) no-repeat #40bbea 0 -3px;}
-
-
-
-
+.bicpic{height: 100%;position: absolute;top: 0;left: 0;z-index: 20;padding: 30px 20px;background-color: rgba(0,0,0,.6);text-align: center;}
+.bicpic a{background-color: rgba(0,0,0,.8);position: absolute;right: 20px;top: 30px;height: 32px;width: 32px; font-size: 26px;line-height: 28px;text-align: center;color: #fff;text-decoration: none;}
+.bicpic img{max-width: 100%}
 
 
 
